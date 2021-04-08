@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-08T12:53:43" hostname="DESKTOP-1DP19R8" time="0.052">
-  <properties/>
-  <testcase name="game_result()" classname="GameTest" time="0.041"/>
-  <testcase name="check()" classname="GameTest" time="0.005"/>
-  <testcase name="getnumber()" classname="GameTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
