@@ -14,6 +14,7 @@ class GameTest {
 
     @org.junit.jupiter.api.Test
     void check() {
+        assertDoesNotThrow (() -> game.check("paper"));
         //     valid/invalid input cases
         assertThrows(IllegalArgumentException.class, () -> game.check("Paper"));
         assertThrows(IllegalArgumentException.class, () -> game.check("666"));

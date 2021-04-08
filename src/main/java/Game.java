@@ -16,6 +16,7 @@ public class Game {
             //    "Exception in thread "main" java.lang.IllegalArgumentException: Bad Choice
             throw new IllegalArgumentException("Bad Player!");
         }
+
     }
     public String game_result (String player1,String player2) {
         if( player1.equals(player2) ){
@@ -25,10 +26,8 @@ public class Game {
             int dis = play_1 - play_2;
             if( dis == 1 || dis == -2){
                 return "Player 2 win!";
-            }else if(dis == -1 || dis == 2){
-                return "Player 1 win!";
             }else{
-                return "testing error";
+                return "Player 1 win!";
             }
         }
     }
